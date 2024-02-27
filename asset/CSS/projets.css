@@ -1,0 +1,118 @@
+body {
+    background-image: url(/asset/images/fondcontact.svg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: white !important;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    color: #5C4E4E !important;
+    margin-bottom: 40px;
+}
+
+#stage {
+    width: 130px;
+}
+
+#html {
+    width: 110px;
+}
+
+#css {
+    width: 100px;
+}
+
+
+.container {
+    position: relative;
+    margin-top: 150px;
+}
+
+#boxprojets, #boxprojets h1, #boxprojets h2, #boxprojets h3, #boxprojets iframe {
+    margin: 20px 0px;
+}
+
+iframe {
+    height: 400px;
+    width: 50% !important;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+img {
+    width: 90%;
+    box-shadow: 3px 3px 10px black;
+}
+
+#imagehtml {
+    position: relative ;
+    display: flex; 
+    height: 500px;
+}
+
+#exercice1:hover, #exercice2:hover, #exercice3:hover  {
+    z-index: 10;
+    transform: scale(2.5);
+    margin-bottom: 100px;
+
+}
+
+#exercice1, #exercice2, #exercice3 {
+    position: absolute; 
+    width: 200px;
+}
+
+
+
+#exercice1 {
+    left: 40%;
+    top: 15%;
+}
+
+#exercice2 {
+    right: 40%;
+    top: 25%;
+}
+
+#exercice3 {
+    left: 35%;
+    top: 40%;
+}
+
+.text {
+    position: relative;
+    left: 10%;
+}
+
+.text p {
+    width: 70%;
+}
+
+
+@media screen and (max-width:750px) {
+    #exercice1, #exercice2, #exercice3 {
+        transform: scale(1.5);
+    }
+}
+
+@media screen and (max-width:450px) {
+    #exercice1, #exercice2, #exercice3 {
+        transform: scale(1.3);
+        width: 100px;
+    }
+}

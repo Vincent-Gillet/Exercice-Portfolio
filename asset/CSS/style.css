@@ -1,0 +1,123 @@
+* {
+    scroll-behavior: smooth;  
+
+}
+
+
+body {
+    background-color: black !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h1 {
+    font-size: 40px !important;
+}
+
+h2 {
+    font-size: 35px !important;
+}
+
+h3 {
+    font-size: 30px !important;
+}
+
+h4 {
+    font-size: 25px !important;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 5;
+    background-color: #5C4E4E important;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#navbar a {
+    color:#e8e8e8 important;
+    transition: ease-in-out 2s;    
+}
+
+#navbar a:hover {
+    color:#e8e8e8 important;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+#conteneurentete {
+    color: unset;
+    text-decoration: unset;
+}
+
+#menu {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 3;
+}
+
+#menu div {
+    position: sticky;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+    align-items: center;
+
+}
+
+#menu div div {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#menuicon img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#menupage {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#menupage li {
+    display: flex;
+    justify-content: center;
+    padding: 4px 2px;
+}
+
+#menupage li a:hover {
+    color: #988686;
+}
+
+#menupage a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#menu:hover #menupage {
+    display: flex;
+    flex-direction: column;
+}
+
+#menuicon:hover #menupage {
+    display: none;
+}

@@ -1,0 +1,129 @@
+.nav .nav-link {
+    color: white;
+}
+
+
+
+#navbar-example3 {
+    position: sticky;
+    top: 30%;
+}
+
+#conteneurenteteimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/asset/images/acceuil/fondintro2test.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    
+}
+
+#conteneurenteteimage img {
+    width: 100vw; 
+    position: absolute; 
+    margin-top: 100px; 
+    transition: transform 0.5s ease;
+}
+
+.objets {
+    width: 100vw;
+}
+
+
+#conteneurenteteimage h1, #conteneurenteteimage h2 {
+    color: #e8e8e8;
+    z-index: 1;
+    font-size: 50px;
+
+    transition: ease-in-out 2s;
+
+}
+
+#conteneurenteteimage h1:hover, #conteneurenteteimage h2:hover {
+    font-size: 60px;
+} 
+
+.sectionpresentation {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 30px;
+    box-shadow: 2px 2px ;
+}
+
+.boitesectionpresentation {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#imgetude {
+    background-image: url('/asset/images/acceuil/etude.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 10px;
+    background-position: center;
+}
+
+#imgexperience {
+    background-image: url('/asset/images/acceuil/eau.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 10px;
+    background-position: center;
+}
+
+#imgreconversion {
+    background-image: url('/asset/images/acceuil/informatique.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 10px;
+    background-position: center;
+}
+
+
+#carouselExampleIndicators {
+    height: 100vh;
+}
+
+#carouselExampleCaptions, .carousel-inner {
+    height: 100vh
+}
+
+.carousel-item img {
+    opacity: 0.3;
+    background-color: black;
+    height: 100vh;
+}
+
+.carousel-caption ul {
+    list-style-type: none;
+
+}
+
+.carousel-caption ul a {
+    color: unset;
+    text-decoration: unset;
+}
+
+.carousel-caption ul a:hover {
+    color: #988686;
+    text-decoration: unset;
+}
+
+#langages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
